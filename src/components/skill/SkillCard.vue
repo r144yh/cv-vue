@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-const props = defineProps({skillDescription: String})
+const props = defineProps({skillDescription: String});
 </script>
 
 <style scoped>
