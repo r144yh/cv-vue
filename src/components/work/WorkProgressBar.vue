@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-const props = defineProps({responsibilityItems: Array})
+const props = defineProps({responsibilityItems: Array});
 </script>
 
 <style scoped>

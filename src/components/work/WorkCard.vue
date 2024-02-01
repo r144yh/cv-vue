@@ -1,15 +1,17 @@
 <template>
   <section>
-    <time>todo</time>
-    <h4><a href="todo">todo</a></h4>
-    <h5>должность todo</h5>
-    <p>todo описание</p>
-<!--  todo навыки  -->
+    <time>{{ props.workDescriptions.periodOfWork }}</time>
+    <h4><a :href="props.workDescriptions.companyLink">{{ props.workDescriptions.companyName }}</a></h4>
+    <h5>{{ props.workDescriptions.position }}</h5>
+    <p>{{ props.workDescriptions.experienceDescription }}</p>
   </section>
+  <WorkProgressBar />
 </template>
 
 <script setup>
+import WorkProgressBar from "@/components/work/WorkProgressBar.vue";
 
+const props = defineProps({workDescriptions: Object});
 </script>
 
 <style scoped>

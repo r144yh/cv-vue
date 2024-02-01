@@ -14,6 +14,6 @@
 
 <script>
 export default {
-  name: 'IconTS',
+	name: "IconTS",
 };
 </script>

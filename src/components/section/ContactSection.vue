@@ -1,5 +1,5 @@
 <template>
-
+  <h3>CONTACTS</h3>
 </template>
 
 <script setup>
