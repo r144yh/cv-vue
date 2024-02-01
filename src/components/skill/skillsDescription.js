@@ -1,11 +1,11 @@
 export function getHardSkillsDescription() {
 	return [
-		"HTML5, CSS3, SASS (SCSS), Stylus, Bootstrap, BEM",
-		"TypeScript, JavaScript (ES6+), NodeJS, Express, Leaflet",
 		"Vue (2/3), React",
+		"TypeScript, JavaScript (ES6+), NodeJS, Express, Leaflet",
 		"Object-Oriented Programming (OOP), SOLID, KISS, DRY, DI",
-		"REST API, Axios, Swagger",
+		"HTML5, CSS3, SASS (SCSS), Stylus, Bootstrap, BEM",
 		"Webpack, Vite, npm, Maven",
+		"REST API, Axios, Swagger",
 		"Git (GitLab, GitHub)",
 		"Jest, CI/CD",
 		"Figma, User Interface Design",
@@ -16,9 +16,9 @@ export function getHardSkillsDescription() {
 export function getSoftSkillsDescription() {
 	return [
 		"English level - B2",
-		"Assessing, planning, and distributing tasks",
 		"Team Player, Effective communication",
 		"Mentoring other frontend developers",
+		"Assessing, planning, and distributing tasks",
 		"Problem-solving ability, Attentiveness",
 		"Conducting technical interviews",
 		"Fan of planning"

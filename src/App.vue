@@ -13,6 +13,7 @@
 
   <footer>
     <ContactSection />
+    <p>&copy; {{ copyPasteText.toUpperCase() }}</p>
   </footer>
 </template>
 
@@ -24,4 +25,6 @@ import SkillSection from "@/components/section/SkillSection.vue";
 import WorkSection from "@/components/section/WorkSection.vue";
 import EducationSection from "@/components/section/EducationSection.vue";
 import ContactSection from "@/components/section/ContactSection.vue";
+
+const copyPasteText = `${new Date().getFullYear()} Frontend Developer - Natalia Salova`
 </script>

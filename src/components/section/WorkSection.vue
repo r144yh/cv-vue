@@ -3,7 +3,7 @@
   <section>
     <WorkCard :work-descriptions="currentWork"/>
     <div>
-      <IconTS/>
+      <IconTS />
       <IconVue />
       <IconReact />
       <IconWebpack />

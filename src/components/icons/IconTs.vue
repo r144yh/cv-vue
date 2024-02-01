@@ -1,4 +1,5 @@
 <template>
+  <title>TypeScript</title>
   <svg
     width="800px"
     height="800px"
