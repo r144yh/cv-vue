@@ -1,4 +1,5 @@
 <template>
+  <h3 id="education">EDUCATION</h3>
   <section>
     <time>2016-2020</time>
     <h4><a href="https://guap.ru/">SUAI</a></h4>

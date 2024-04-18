@@ -1,5 +1,5 @@
 <template>
-  <section id="skills" class="">
+  <section class="" id="skills">
     <section class="">
       <h3><span>Hard</span>skills</h3>
       <div v-for="skill in hardSkills" class="">
@@ -16,8 +16,8 @@
 </template>
 
 <script setup>
-import {getHardSkillsDescription, getSoftSkillsDescription} from "@/components/skill/skillsDescription.js";
-import SkillCard from "@/components/skill/SkillCard.vue";
+import {getHardSkillsDescription, getSoftSkillsDescription} from "@/components/card/skill/skillsDescription.js";
+import SkillCard from "@/components/card/skill/SkillCard.vue";
 
 const hardSkills = getHardSkillsDescription();
 const softSkills = getSoftSkillsDescription();

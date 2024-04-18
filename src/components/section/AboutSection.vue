@@ -1,9 +1,9 @@
 <template>
-  <section>
-    <h2>Who am I?</h2>
+  <section id="about">
+    <h2>{{ $t('who_am_i') }}</h2>
     <div>
       <section>
-        <p><strong>Middle Frontend Developer</strong> with 3+ years of commercial experience.</p>
+        <p><strong>{{ $t('mid_front_developer') }}</strong>{{ $t('commercial_experience') }}</p>
         <p>За последние три года я прошла путь от совсем начинающего джуниора до ключевого разработчика в команде,
           который не боится и понимает, как подступиться к сложной задаче, может написать код
           долго не требующий рефакторинга, а помимо этого - организовать работу команды.</p>

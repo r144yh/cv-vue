@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section id="#" class="hero">
     <p class="hero__subtitle">
       Hi there, I am
     </p>

@@ -1,4 +1,4 @@
-export function getCurrentWorkDescription() {
+export function getCurrentWorkDescription() { //todo i18n
 	return {
 		id: 1,
 		periodOfWork: "2022-cur",

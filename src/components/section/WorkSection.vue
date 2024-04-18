@@ -1,5 +1,5 @@
 <template>
-  <h3><strong>Work</strong> Experience</h3>
+  <h3 id="work"><strong>Work</strong> Experience</h3>
   <section>
     <WorkCard :work-descriptions="currentWork"/>
     <div>
@@ -37,8 +37,8 @@ import {
 	getCurrentWorkDescription,
 	getFirstWorkDescription,
 	getSecondWorkDescription
-} from "@/components/work/workDescription.js";
-import WorkCard from "@/components/work/WorkCard.vue";
+} from "@/components/card/work/workDescription.js";
+import WorkCard from "@/components/card/work/WorkCard.vue";
 import IconTS from "@/components/icons/IconTs.vue";
 import IconJs from "@/components/icons/IconJs.vue";
 import IconVue from "@/components/icons/IconVue.vue";

@@ -1,10 +1,10 @@
 <template>
   <header>
     <NavigationSection />
-    <WelcomeSection />
   </header>
 
   <main>
+    <WelcomeSection />
     <AboutSection />
     <SkillSection />
     <WorkSection />
@@ -26,5 +26,14 @@ import WorkSection from "@/components/section/WorkSection.vue";
 import EducationSection from "@/components/section/EducationSection.vue";
 import ContactSection from "@/components/section/ContactSection.vue";
 
-const copyPasteText = `${new Date().getFullYear()} Frontend Developer - Natalia Salova`
+const copyPasteText = `${new Date().getFullYear()} Frontend Developer - Natalia Salova` //todo i18n
 </script>
+
+<style scoped>
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+</style>

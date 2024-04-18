@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import WorkProgressBar from "@/components/work/WorkProgressBar.vue";
+import WorkProgressBar from "@/components/card/work/WorkProgressBar.vue";
 
 const props = defineProps({workDescriptions: Object});
 </script>

@@ -1,4 +1,4 @@
-export function getHardSkillsDescription() {
+export function getHardSkillsDescription() { //todo i18n
 	return [
 		"Vue (2/3), React",
 		"TypeScript, JavaScript (ES6+), NodeJS, Express, Leaflet",

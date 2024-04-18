@@ -1,5 +1,5 @@
 <template>
-  <h3>CONTACTS</h3>
+  <h3 id="contacts">CONTACTS</h3>
   <h4>Давайте обсудим новые возможности?</h4>
   <div>
     <a href="www.linkedin.com/in/natalia-salova-295714254">todo icon</a>

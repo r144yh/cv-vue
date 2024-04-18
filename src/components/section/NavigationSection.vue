@@ -1,23 +1,40 @@
 <template>
-  <section role="navigation" class="navigation">
-    <a href="/" class="logo" />
-    <nav>
-      <ul>
-        <li><a href="">About me</a></li>
-        <li><a href="">Skills</a></li>
-        <li><a href="">Work Experience</a></li>
-        <li><a href="">Education</a></li>
-        <li><a href="">Contacts</a></li>
-      </ul>
-    </nav>
+  <nav aria-label="CV navigation" class="navigation">
+    <ul class="nav-section">
+      <li>
+        <a href="#" class="logo"></a>
+      </li>
+      
+      <li>
+        <a href="#about">About me</a>
+      </li>
+      
+      <li>
+        <a href="#skills">Skills</a>
+      </li>
+      
+      <li>
+        <a href="#work">Work Experience</a>
+      </li>
+
+      <li>
+        <a href="#education">Education</a>
+      </li>
+
+      <li>
+        <a href="#contacts">Contacts</a>
+      </li>
+    </ul>
+
     <div>
-      <button>{en}</button>
-      <button>ru</button>
+      <select v-model="$i18n.locale">
+        <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
+      </select>
     </div>
     <div>
-      <button>cv</button>
+      <a href="" download="FrontDev_SalovaNatalia_CV.pdf">Download CV</a>
     </div>
-  </section>
+  </nav>
   <!--todo mobile-->
 </template>
 
@@ -26,5 +43,12 @@
 </script>
 
 <style scoped>
+.navigation {
+  display: flex;
+  justify-content: center;
+}
 
+.nav-section {
+  display: flex;
+}
 </style>
