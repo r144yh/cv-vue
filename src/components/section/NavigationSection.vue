@@ -1,28 +1,28 @@
 <template>
   <nav aria-label="CV navigation" class="navigation">
+    <div>
+      <a href="#" class="logo">[ ]</a>
+    </div>
+
     <ul class="nav-section">
       <li>
-        <a href="#" class="logo"></a>
+        <a href="#about" class="nav">About me</a>
       </li>
       
       <li>
-        <a href="#about">About me</a>
+        <a href="#skills" class="nav">Skills</a>
       </li>
       
       <li>
-        <a href="#skills">Skills</a>
-      </li>
-      
-      <li>
-        <a href="#work">Work Experience</a>
+        <a href="#work" class="nav">Work Experience</a>
       </li>
 
       <li>
-        <a href="#education">Education</a>
+        <a href="#education" class="nav">Education</a>
       </li>
 
       <li>
-        <a href="#contacts">Contacts</a>
+        <a href="#contacts" class="nav">Contacts</a>
       </li>
     </ul>
 
@@ -31,9 +31,9 @@
         <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
       </select>
     </div>
-    <div>
+<!--    <div>
       <a href="" download="FrontDev_SalovaNatalia_CV.pdf">Download CV</a>
-    </div>
+    </div>-->
   </nav>
   <!--todo mobile-->
 </template>
@@ -42,13 +42,6 @@
 
 </script>
 
-<style scoped>
-.navigation {
-  display: flex;
-  justify-content: center;
-}
-
-.nav-section {
-  display: flex;
-}
+<style scoped lang="scss">
+@use '@/styles/components/navigation';
 </style>

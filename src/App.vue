@@ -4,17 +4,17 @@
   </header>
 
   <main>
-    <WelcomeSection />
-    <AboutSection />
+<!--    <WelcomeSection />-->
+<!--    <AboutSection />
     <SkillSection />
     <WorkSection />
-    <EducationSection />
+    <EducationSection />-->
   </main>
 
-  <footer>
+<!--  <footer>
     <ContactSection />
     <p>&copy; {{ copyPasteText.toUpperCase() }}</p>
-  </footer>
+  </footer>-->
 </template>
 
 <script setup>
@@ -34,6 +34,8 @@ const copyPasteText = `${new Date().getFullYear()} Frontend Developer - Natalia 
 header {
   position: sticky;
   top: 0;
+  display: flex;
+  justify-content: center;
 }
 
 </style>

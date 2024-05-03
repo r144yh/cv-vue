@@ -1,0 +1,43 @@
+@use '@/styles/pallete';
+
+.navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 1rem;
+  padding: 1.25rem 1rem;
+  margin: .5rem;
+
+  color: pallete.$color-general-black;
+  background: pallete.$color-main-green;
+
+  text-transform: uppercase;
+
+  font-family: AnonymousPro-Regular, sans-serif;
+  letter-spacing: .188rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+}
+
+.nav-section {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.nav {
+  display: inline-block;
+  padding: .25rem 1.5rem;
+  color: pallete.$color-general-black;
+}
+
+.nav:hover {
+  border-radius: 1rem;
+  background: pallete.$color-general-black;
+  color: pallete.$color-main-white;
+}
